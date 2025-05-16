@@ -42,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hvb3NlUHJvZ3JhbVxJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ca r221.14/Desktop/mvcc/GymMVC/Areas/Admin/Views/ChooseProgram/Read.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hvb3NlUHJvZ3JhbVxSZWFkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ca r221.14/Desktop/mvcc/GymMVC/Areas/Admin/Views/ChooseProgram/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hvb3NlUHJvZ3JhbVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

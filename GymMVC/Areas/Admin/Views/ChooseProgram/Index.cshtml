@@ -29,24 +29,25 @@
                                             <th>Salary</th>
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
-                                        </tr>
-                                    </tfoot>
+                                  @*     <tfoot>
+                                          <tr>
+                                              <th>Name</th>
+                                              <th>Position</th>
+                                              <th>Office</th>
+                                              <th>Age</th>
+                                              <th>Start date</th>
+                                              <th>Salary</th>
+                                          </tr>
+                                      </tfoot> *@
                                     <tbody>
                         @foreach(ChooseProgram item in Model)
                         {
                                <tr>    
-                                  <td>System Architect</td>
-                                  <td>Edinburgh</td>
-                                  <td>61</td>
-                                  <td>2011/04/25</td>
+                                  <td>@item.Id</td>
+                                  <td>@item.ImgUrl</td>
+                                  <td>@item.Name</td>
+                                  <td>@item.Description</td>
+                                <td>@item.DiscoverMore</td>
                                   <td>
                                       
                                   </td>
