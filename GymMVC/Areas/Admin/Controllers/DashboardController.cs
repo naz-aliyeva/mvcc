@@ -14,8 +14,8 @@ namespace GymMVC.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            List<ChooseProgram> programs = _context.ChoosePograms.ToList();
-            return View(programs);
+            //List<ChooseProgram> programs = _context.ChoosePograms.ToList();
+            return View();
         }
     }
 }
