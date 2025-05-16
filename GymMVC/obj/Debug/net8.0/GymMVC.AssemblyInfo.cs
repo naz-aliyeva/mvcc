@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GymMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d87f7b7176fafa49745664e1c278733d67fb76c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e1e0d8282bb911d870c564ac3fb890f52ec4d83")]
 [assembly: System.Reflection.AssemblyProductAttribute("GymMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GymMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

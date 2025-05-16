@@ -55,7 +55,7 @@ namespace GymMVC.Areas.Admin.Controllers
             return View(products);
         }
         [HttpPost]
-        public IActionResult Update(int id, FeaturedProducts featured)
+        public IActionResult Update(int id, ChooseProgram program)
         {
 
             return RedirectToAction(nameof(Index));

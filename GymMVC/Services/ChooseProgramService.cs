@@ -25,17 +25,18 @@ namespace GymMVC.Services
             ChooseProgram? chooseProgram = _context.ChoosePograms.Find(id);
             if (chooseProgram is null)
             {
-                throw new Exception($"databasa daxilinde {id} id-e sahib data tapilmadi ");
+                throw new Exception($"Databasa daxilinde {id} id-e sahib data tapilmadi ");
             }
             return chooseProgram;
         }
-        #endregion
+  
 
-        public List<ChooseProgram> GetAllChoseProgram()
+        public List<ChooseProgram> GetAllChooseProgram()
         {
             List<ChooseProgram> choosePrograms = _context.ChoosePograms.ToList();
             return choosePrograms;
         }
+       #endregion
 
         #region Update
         public void UpdatedChooseProgram(int id, ChooseProgram program)
@@ -50,7 +51,16 @@ namespace GymMVC.Services
         #endregion
 
         #region Delete
-
+        public void DeleteChooseProgram(int id)
+        {
+            ChooseProgram? chooseProgram = _context.ChoosePograms.Find(id);
+            if (chooseProgram is null)
+            {
+                throw new Exception($"Databasa daxilinde {id} id-e sahib data tapilmadi ");
+            }
+            _context.ChoosePograms.Remove(chooseProgram);
+            _context.SaveChanges();
+        }
         #endregion
 
     }
